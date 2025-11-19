@@ -4,6 +4,7 @@
 > (`ProgramData > AviUtl2`または`AviUtl2.exe`と同階層にあるDataフォルダ)のなかにある
 > `aviutl2.ini`の末尾に[このファイル](./このファイルの内容をアプリケーションデータフォルダ内のaviutl2.iniの末尾に追記してください)
 の中身を全部コピペして追記してください。(もとの設定を上書きしないように注意してください。)
+> 
 > これを行わないと、プリセット色メニューに大量の色が追加されてしまい、色選択が不便になります。
   <details>
   <summary>設定を忘れてしまった方向けの対処法</summary><br>
@@ -18,7 +19,7 @@
   </details>
 
 ## 含まれるカラーパレット
-- 一般的なモノトーン(白～黒)
+- モノトーン (黒～白)
   <br><img width="150" src="./img/モノトーン.png">
 - ビビッドカラー (HSVでV=100, S>50の色)
   <br><img width="150" src="./img/ビビッド.png">
@@ -28,7 +29,7 @@
   <br><img width="150" src="./img/和色1.png"><img width="150" src="./img/和色2.png"><img width="150" src="./img/和色3.png"><img width="150" src="./img/和色4.png">
   <br><img width="150" src="./img/和色5.png"><img width="150" src="./img/和色6.png"><img width="150" src="./img/和色7.png"><img width="150" src="./img/和色8.png">
   
-(洋色の方は時間が空き次第追加するつもりです)
+(洋色など別のカラーパレットも時間が空き次第追加するつもりです)
 
 ## 導入方法
 1. アプリケーションデータフォルダ内の`Default`フォルダに追加したいカラーパレットの`.pallete`ファイルを配置します。
